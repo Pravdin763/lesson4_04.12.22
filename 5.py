@@ -17,8 +17,8 @@ f12 = repl(f2).split()
 
 
 def takedict(x):            # функция создает словарь, где значение степень, а ключ множитель
-    if '*' not in x:
-        x += '**1'
+    if '^' not in x:
+        x += '^1'
     slov = {}
     if x[-1].isdigit():
         slov[x[-1]] = ''
